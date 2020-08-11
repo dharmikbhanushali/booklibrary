@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	return "This is book api"
+	return "This is book api v2"
 
 @app.route('/isbn/<isbnNumber>', methods = ['GET'])
 def getBookByISBN(isbnNumber):
